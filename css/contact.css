@@ -1,0 +1,12 @@
+/* ===== CONTACT PAGE ===== */
+.contact-section {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contact-section h1 {
+  color: #002244;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}

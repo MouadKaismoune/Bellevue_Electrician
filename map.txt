@@ -1,0 +1,31 @@
+bellevueelectrician/
+│
+├── index.html
+├── services.html
+├── about.html
+├── projects.html
+├── testimonials.html
+├── estimate.html
+├── contact.html
+│
+├── css/
+│   ├── style.css
+│   ├── responsive.css
+│   └── reset.css
+│
+├── js/
+│   ├── main.js
+│   ├── form.js
+│   └── slider.js
+│
+├── images/
+│   ├── logo.png
+│   ├── hero/
+│   ├── services/
+│   ├── projects/
+│   └── testimonials/
+│
+└── assets/
+    ├── icons/
+    └── fonts/
+
