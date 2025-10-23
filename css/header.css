@@ -29,3 +29,19 @@
 .nav a:hover {
   color: #ffcc00;
 }
+
+/* responsive */
+
+@media (max-width: 1000px) {
+  .header .container{
+    flex-direction: column;
+  }
+  
+  .logo{
+    padding-block: 10px;
+  }
+
+  .header .container .nav{
+    text-align: center;
+  }
+}
