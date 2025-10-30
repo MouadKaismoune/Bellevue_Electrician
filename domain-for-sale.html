@@ -10,7 +10,7 @@
   <!-- External CSS -->
   <link rel="stylesheet" href="css/domain-for-sale.css">
 
-  <!-- ✅ Updated Schema.org Product markup for SEO -->
+  <!-- ✅ Fully Fixed & Valid Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
@@ -31,6 +31,10 @@
       "availability": "https://schema.org/InStock",
       "shippingDetails": {
         "@type": "OfferShippingDetails",
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        },
         "shippingRate": {
           "@type": "MonetaryAmount",
           "value": "0.00",
@@ -38,8 +42,16 @@
         },
         "deliveryTime": {
           "@type": "ShippingDeliveryTime",
-          "handlingTime": "P1D",
-          "transitTime": "P3D"
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "value": 1,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "value": 3,
+            "unitCode": "DAY"
+          }
         }
       },
       "hasMerchantReturnPolicy": {
@@ -47,7 +59,8 @@
         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
         "merchantReturnDays": 30,
         "returnMethod": "ReturnByMail",
-        "returnFees": "FreeReturn"
+        "returnFees": "FreeReturn",
+        "applicableCountry": "US"
       }
     },
     "seller": {
@@ -68,19 +81,19 @@
   <div class="container">
     <h2>Why BellevueElectrician.com?</h2>
     <div class="content">
-      <p><strong>BellevueElectrician.com</strong> is a premium domain name perfect for any electrical service provider in Bellevue, WA. 
+      <p><strong>BellevueElectrician.com</strong> is a premium domain name perfect for any electrical service provider in Bellevue, WA.
       It’s simple, clear, and instantly builds trust with local customers.</p>
 
-      <p>✔ Easy to remember and type  
-      <br>✔ Highly relevant for local SEO  
+      <p>✔ Easy to remember and type
+      <br>✔ Highly relevant for local SEO
       <br>✔ Ideal for Google Ads, branding, and business cards</p>
 
       <div class="price">$275 Only</div>
 
-      <p>This domain is currently listed for sale on both <strong>GoDaddy</strong> and <strong>Sedo</strong>.  
+      <p>This domain is currently listed for sale on both <strong>GoDaddy</strong> and <strong>Sedo</strong>.
       You can purchase it securely through either platform.</p>
 
-      <p>If you already have a website, you don’t need to rebuild it — simply <strong>redirect your existing site</strong> to this domain.  
+      <p>If you already have a website, you don’t need to rebuild it — simply <strong>redirect your existing site</strong> to this domain.
       If you don’t have a website yet, you’ll get this full website content <strong>free of charge</strong> with the domain purchase.</p>
 
       <p>Interested? Buy it now or contact me directly:</p>
