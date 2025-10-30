@@ -11,4 +11,8 @@
   margin-bottom: 10px;
 }
 
-
+.testimonials-section a{
+  display: inline-block;
+  padding-inline: 20px;
+  margin-block: 10px;
+}
